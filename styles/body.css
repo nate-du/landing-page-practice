@@ -1,0 +1,129 @@
+/* Banner content */
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  height: auto;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  color: white;
+}
+
+.banner-content {
+  flex: 1 1 50%;
+}
+
+.banner h1 {
+  font-size: 3.2rem;
+  margin-bottom: 12px;
+}
+
+.banner p {
+  margin-bottom: 40px;
+}
+
+.banner-image {
+  height: 500px;
+  object-fit: contain;
+}
+
+.banner button {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(170, 29, 29);
+  padding: 8px 16px;
+  border-radius: 4px;
+  border-style: none;
+  font-weight: 700;
+}
+
+/* Section one content */
+.section-one {
+  padding: 50px 0 80px;
+}
+
+.section-one h2 {
+  text-align: center;
+  margin: 30px 0 40px;
+}
+
+.section-one .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 150px;
+  text-align: center;
+}
+
+.info-photo {
+  height: 150px;
+  width: 150px;
+  order: -1;
+}
+
+/* Section two content */
+.section-two {
+  background-color: lightgrey;
+  padding: 100px 0;
+}
+
+.section-two .container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.section-two .quote {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.section-two .quote-author {
+  text-align: end;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Section three content */
+.section-three {
+  padding: 80px 0;
+}
+
+.section-three .container {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: rgb(170, 29, 29);
+  color: white;
+  padding: 20px 100px;
+  border-radius: 4px;
+}
+
+.section-three h4 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.section-three button {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(170, 29, 29);
+  padding: 8px 16px;
+  border-radius: 4px;
+  border-color: white;
+  border-style: solid;
+  font-weight: 700;
+  padding: 8px 25px;
+}
